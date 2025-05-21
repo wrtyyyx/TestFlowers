@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const itemsApi = createApi({
     reducerPath: 'productsApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3000/api/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://flowers-backend-a93h.onrender.com/api/' }),
     tagTypes: ['Product'],
     endpoints: (builder) => ({
         getProducts: builder.query({

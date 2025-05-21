@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const authApi = createApi({
     reducerPath: 'authApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3000/api/auth',
+        baseUrl: 'https://flowers-backend-a93h.onrender.com/api/auth',
         prepareHeaders: (headers) => {
             const token = sessionStorage.getItem('token');
             if (token) {

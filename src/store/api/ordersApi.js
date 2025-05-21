@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const ordersApi = createApi({
     reducerPath: 'ordersApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3000/api/orders',
+        baseUrl: 'https://flowers-backend-a93h.onrender.com/api/orders',
         prepareHeaders: (headers) => {
             const token = sessionStorage.getItem('token');
             if (token) {
