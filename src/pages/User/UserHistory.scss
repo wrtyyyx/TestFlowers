@@ -1,0 +1,65 @@
+.history {
+    &_container {
+        max-width: 950px;
+        width: 100%;
+        background: var(--bg-container);
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    &_back {
+        position: absolute;
+        color: #8c4df1;
+        cursor: pointer;
+    }
+    &_delete{
+        position: absolute;
+        right: 25px;
+        top: 17px;
+    }
+    &_title {
+        text-align: center;
+        font-weight: 700;
+        color: #8c4df1;
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    &_info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-bottom: 20px;
+
+        & div {
+            flex: 1 0 45%;
+            font-size: 16px;
+            color: #ddd;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px 15px;
+            border-radius: 8px;
+
+            & span {
+                color: #8c4df1;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &_order {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    &_box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+}

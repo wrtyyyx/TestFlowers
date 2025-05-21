@@ -1,0 +1,47 @@
+.aside {
+
+    width: 250px;
+    border-radius: 6px;
+    background: var(--bg-container);
+    padding: 25px;
+
+    &_title {
+        color: #e7598a;
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 32px;
+    }
+
+    &_nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-bottom: 199px;
+    }
+
+    &_category {
+        color: var(--min-color);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .active {
+        color: var(--purpule-active);
+    }
+
+    &_help {
+        display: flex;
+        justify-content: space-between;
+
+        &_link {
+            color: var(--min-color);
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}

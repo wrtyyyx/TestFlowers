@@ -1,0 +1,80 @@
+.sign {
+  &_container {
+    border-radius: 6px;
+    background: var(--bg-container);
+    padding: 20px;
+  }
+
+  &_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &_reg{
+    width: 500px;
+  }
+
+  &_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &_row {
+    display: flex;
+    flex: 1 1 40%;
+    gap: 10px;
+  }
+
+  &_group {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+      padding-bottom: 5px;
+    }
+
+    & input {
+      border-radius: 8px;
+      background: #212123;
+      border: none;
+      padding: 12px 24px;
+      color: white;
+
+      &:focus {
+        border: 1px solid #6c3eb8;
+      }
+    }
+  }
+
+  &_error {
+    color: red;
+
+    &_main {
+      padding-top: 20px;
+      color: red;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  &_button {
+    background: var(--purpule-dark);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+  }
+  &_signUp{
+
+  }
+}
+
+.react-international-phone-country-selector-button {
+  display: none;
+}
+
+.react-international-phone{
+  display: flex;
+  flex-direction: column;
+}

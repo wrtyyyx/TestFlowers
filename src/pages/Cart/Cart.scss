@@ -1,0 +1,35 @@
+.cart {
+    .container {
+        border-radius: 6px;
+        background: var(--bg-container);
+        padding: 20px;
+        width: 950px;
+    }
+    &_title {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    &_total {
+        color: var(--icon-grey);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    & span {
+        color: #8c4df1;
+    }
+    &_btn {
+        background: var(--purpule-dark);
+        border: none;
+        color: #ffffff;
+        padding: 12px 14px;
+        border-radius: 6px;
+    }
+    &_footer{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

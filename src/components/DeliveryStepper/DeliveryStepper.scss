@@ -1,0 +1,18 @@
+.stepper {
+  .MuiStepLabel-label {
+    color: var(--purpule-dark) !important;
+  }
+  .MuiStepIcon-root {
+    &.Mui-active {
+      color: #3a2162;
+    }
+    &.Mui-completed {
+      color: var(--purpule-active); // Цвет завершенного шага
+    }
+
+  }
+}
+
+
+
+

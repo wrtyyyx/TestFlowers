@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.container {
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+:root {
+    --bg-container: #c0aaaa;
+    --bg-body: #a2a2a2;
+    --purpule-dark: #873791;
+    --purpule-active: #ce34e0;
+    --icon-grey: #e1e1e1;
+    --min-color: #ffff;
+}
+
+body {
+    background: #ffffff;
+    font-family: Montserrat, serif;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(241, 241, 241, 0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(114, 114, 114, 0.32);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

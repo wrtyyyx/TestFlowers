@@ -1,0 +1,48 @@
+.cat {
+    &_container {
+        border-radius: 6px;
+        background: var(--bg-container);
+        padding: 0 22px 30px;
+        width: 950px;
+    }
+
+    &_title {
+        padding: 25px 0;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+
+        &:first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    &_items {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    &_form {
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        &_input {
+            border-radius: 8px;
+            background: #212123;
+            border: none;
+            padding: 12px 34px;
+            margin-right: 20px;
+            color: white;
+        }
+
+        &_btn {
+            border-radius: 6px;
+            margin-left: 20px;
+            background: var(--purpule-dark);
+            height: 30px;
+            color: white;
+        }
+    }
+}

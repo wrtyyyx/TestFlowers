@@ -1,0 +1,46 @@
+.card {
+    width: 230px;
+    flex: 0 1 30%;
+    border-radius: 8px;
+    background: var(--bg-body);
+    padding-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    &_img {
+        object-fit: contain;
+        background-position: center;
+        width: 100%;
+        aspect-ratio: 1;
+        border-radius: 8px 8px 0 0;
+    }
+
+    &_info {
+        padding: 12px 12px;
+
+        &_title {
+            font-size: 15px;
+            font-weight: 600;
+            text-wrap: wrap;
+            padding-bottom: 5px;
+            color: white;
+        }
+
+        &_cat {
+            color: var(--icon-grey);
+            font-size: 12px;
+        }
+    }
+
+    &_price {
+        padding: 0 12px;
+        color: var(--purpule-dark);
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

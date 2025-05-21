@@ -1,0 +1,18 @@
+.btn {
+    border-radius: 6px;
+    background: var(--purpule-dark);
+    padding: 9px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    font-family: Montserrat, serif;
+
+    &--grey {
+        background: var(--min-color);
+        color: var(--icon-grey);
+        &:active {
+            background: #3a3e44;
+        }
+    }
+}

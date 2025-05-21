@@ -1,0 +1,60 @@
+.product {
+    &_container {
+        position: relative;
+        border-radius: 6px;
+        background: var(--bg-container);
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+    }
+
+    &_back {
+        position: absolute;
+        color: var(--purpule-dark);
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: underline;
+        z-index: 200;
+        top: 55px;
+        bottom: 0;
+    }
+
+    &_img {
+        border-radius: 6px;
+    }
+
+    &_title {
+        font-size: 18px;
+        padding-bottom: 10px;
+        max-width: 350px;
+    }
+
+    &_price {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    &_rate {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    &_count {
+        color: var(--min-color);
+        padding-bottom: 20px;
+    }
+
+    &_desc {
+        color: var(--icon-grey);
+        width: 338px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+    &_group {
+        display: flex;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,70 @@
+.header {
+    padding-top: 20px;
+    position: sticky;
+    padding-bottom: 16px;
+    z-index: 100;
+
+    &_logo{
+        margin-left: 10px;
+    }
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &_name {
+            color: #b8b8b8;
+            font-size: 12px;
+        }
+    }
+
+    &_form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        background: var(--bg-container);
+        padding: 7px 10px;
+        border-radius: 6px;
+        position: relative;
+        z-index: 999;
+
+        &_input {
+            outline: 0;
+            background: none;
+            border: none;
+            width: 350px;
+            color: white;
+        }
+
+        &_result {
+            position: absolute;
+            top: 100%;
+            border-radius: 0 0 6px 6px;
+            left: 0;
+            max-height: 200px;
+            overflow-y: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            background: #363636;
+
+            &_item {
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &_shop {
+        display: flex;
+        gap: 20px;
+    }
+}
